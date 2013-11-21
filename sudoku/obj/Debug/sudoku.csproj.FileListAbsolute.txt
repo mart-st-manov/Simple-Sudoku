@@ -1,9 +1,0 @@
-c:\users\matrix\documents\visual studio 2012\Projects\sudoku\sudoku\bin\Debug\sudoku.exe.config
-c:\users\matrix\documents\visual studio 2012\Projects\sudoku\sudoku\bin\Debug\sudoku.exe
-c:\users\matrix\documents\visual studio 2012\Projects\sudoku\sudoku\bin\Debug\sudoku.pdb
-c:\users\matrix\documents\visual studio 2012\Projects\sudoku\sudoku\obj\Debug\sudoku.csprojResolveAssemblyReference.cache
-c:\users\matrix\documents\visual studio 2012\Projects\sudoku\sudoku\obj\Debug\sudoku.Form1.resources
-c:\users\matrix\documents\visual studio 2012\Projects\sudoku\sudoku\obj\Debug\sudoku.Properties.Resources.resources
-c:\users\matrix\documents\visual studio 2012\Projects\sudoku\sudoku\obj\Debug\sudoku.csproj.GenerateResource.Cache
-c:\users\matrix\documents\visual studio 2012\Projects\sudoku\sudoku\obj\Debug\sudoku.exe
-c:\users\matrix\documents\visual studio 2012\Projects\sudoku\sudoku\obj\Debug\sudoku.pdb

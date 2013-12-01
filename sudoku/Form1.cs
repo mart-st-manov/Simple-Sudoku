@@ -211,6 +211,7 @@ namespace sudoku
         public void button91_Click(object sender, EventArgs e)
         {
             int br = 0;
+            bool checker = false;
             List<Button> numbers = new List<Button>
             {
                 button82, button83, button84, button85, button86, button87, button88, button89, button90
@@ -356,20 +357,37 @@ namespace sudoku
             };
 
             for (int i = 0; i < list.Count; i++) {
-                for (int j = 0; j < list[i].Count-1; j++) {
-                    if (list[i][j].Text.ToString() == list[i][j + 1].Text.ToString())
-                    {
-                        br++;
+                for (int j = 0; j < list[i].Count; j++) {
+
+                    if (list[i][j].Text != "")
+                        br += int.Parse(list[i][j].Text);
+                    else {
+                        MessageBox.Show("There are still some empty boxes!");
+                        break;
                     }
                 }
+
+                if (br == 45) {
+                    checker = true;
+                    br = 0;
+                }
+
+                else {
+                    checker = false;
+                    br = 0;
+                    break;
+                }
+
             }
 
-            if (br == 0)
+            if (checker)
             {
-                MessageBox.Show("Correct! :)");
+                MessageBox.Show("Correct! :) ");
+                br = 0;
             }
             else {
-                MessageBox.Show("Incorrect :(");            
+                MessageBox.Show("Incorrect :( ");
+                br = 0;
             }
 
         }
